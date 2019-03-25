@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Drawer.UpdateInfoFragment">
+
+
+
+    <RelativeLayout
+        android:id="@+id/loadingUpdateInfoPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:id="@+id/loadingUpdateInfoBar"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+
+
+    <EditText
+        android:id="@+id/etUpdateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Nume*"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etUpdateAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etUpdateName"
+        android:ems="10"
+        android:hint="Adresa*"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/etUpdatePhoneNr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etUpdateAddress"
+        android:ems="10"
+        android:hint="Numar telefon*"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bUpdateInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etUpdatePhoneNr"
+        android:layout_marginTop="20dp"
+        android:text="Actualizeaza" />
+
+</RelativeLayout>

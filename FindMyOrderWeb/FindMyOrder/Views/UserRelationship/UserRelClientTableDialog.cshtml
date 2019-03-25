@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewBag.Title = "UserRelClientTableDialog";
+    Layout = null;
+}
+
+
+<div id="UserRelClientTableDialog">
+    <br /><br />
+    <div style="width:100%; margin:0 auto" class="tablecontainer table table-stripped table-boarded">
+        <table id="myUserRelClientDatatable" class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th>Nume</th>
+                    <th>E-mail</th>
+                    <th>Actiune</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+
+<script>
+    $(function () {
+        var oTable = $('#myUserRelClientDatatable').DataTable({
+            "language": {
+                "lengthMenu": "Afiseaza _MENU_ inregistrari pe pagina",
+                "zeroRecords": "Ne pare rau dar nu am gasit inregistrari",
+                "info": "Pagina _PAGE_ din _PAGES_",
+                "infoEmpty": "Nu sunt inregistrari disponibile",
+                "infoFiltered": "(filtru aplicat pe _MAX_ inregistrari totale)",
+                "sSearch": "Caută:",
+                "sProcessing": "Procesează...",
+                "oPaginate": {
+                    "sFirst": "Prima",
+                    "sPrevious": "Precedenta",
+                    "sNext": "Următoarea",
+                    "sLast": "Ultima"
+                }
+            },
+            "autoWidth": false,
+            "columnDefs": [
+                { "width": "33.33%" },
+                { "width": "33.33%" },
+                { "width": "33.33%" },
+            ],
+            "ajax": {
+                "url": '/UserRelationship/GetUserRelClients',
+                "type": "POST",
+                "datatype": "json"
+            },
+            "columns": [
+                { "data": "UserDetails.Name"},
+                { "data": "Email"},
+                {
+                    "data": "Id", "width": "50px", "render": function (data) {
+                        return '<a id="myClickClient" href="" style="color: blue" onclick="AssociateUserRelClient(' + data +')">Asociaza</a>';
+                    }
+                }
+            ]
+        })
+    })
+</script>
+
+<script src="~/Scripts/App/UserRelTableDialogs.js"></script>
+
+
+

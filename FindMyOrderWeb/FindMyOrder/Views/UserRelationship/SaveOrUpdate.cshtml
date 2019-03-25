@@ -1,0 +1,193 @@
+﻿@model FindMyOrder.Models.UserRelationship
+
+@{
+    ViewBag.Title = "SaveOrUpdate";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (Model.Id == -1) //add
+{
+    <div class="breadcrumbs">
+        <div class="col-sm-4">
+            <div class="page-header float-left">
+                <div class="page-title">
+                    <h1 class="myPageTitle">Adauga Relatie</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else //update
+{
+    <div class="breadcrumbs">
+        <div class="col-sm-4">
+            <div class="page-header float-left">
+                <div class="page-title">
+                    <h1 class="myPageTitle">Modifica informatii relatie</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<br />
+<br />
+
+<div style="width:90%; margin:0 auto">
+    @using (Html.BeginForm("SaveOrUpdate", "UserRelationship", FormMethod.Post))
+    {
+        @Html.Raw(TempData["msg"])
+        @Html.Raw(TempData["msgDuplicate"])
+        @Html.HiddenFor(a => a.Id)
+
+        <div class="selectClient">
+            <div style="display:inline-block">
+                <div class="form-group" style="display: inline-block">
+                    @Html.HiddenFor(a => a.ClientId)
+                    <label>Nume client</label><br />
+                    @Html.EditorFor(a => a.Client.UserDetails.Name, new { htmlAttributes = new { @class = "form-control text-box single-line", disabled = "true", autocomplete = "off", @id = "ClientName" } })
+                </div>
+                <a class="popupClient myCssButton" role="button" style="display: inline-block" href="/UserRelationship/UserRelClientTableDialog">Alege client</a>
+            </div>
+        </div>
+
+        <div class="selectCourier">
+            <div style="display:inline-block">
+                <div class="form-group" style="display: inline-block">
+                    @Html.HiddenFor(a => a.CourierId)
+                   <label>Nume curier</label><br />
+                    @Html.EditorFor(a => a.Courier.UserDetails.Name, new { htmlAttributes = new { @class = "form-control text-box single-line", disabled = "true", autocomplete = "off", @id = "CourierName" } })
+                </div>
+                <a class="popupCourier myCssButton" role="button" style="display: inline-block" href="/UserRelationship/UserRelCourierTableDialog">Alege curier</a>
+            </div>
+        </div>
+
+        <div class="selectClientPackage">
+            <div style="display:inline-block">
+                <div class="form-group" style="display: inline-block">
+                    @Html.HiddenFor(a => a.ClientPackageId)
+                    @Html.LabelFor(x => x.ClientPackage.Name)<br />
+                    @Html.EditorFor(a => a.ClientPackage.Name, new { htmlAttributes = new { @class = "form-control text-box single-line", disabled = "true", autocomplete = "off", @id = "ClientPackageName" } })
+                </div>
+                <a class="popupClientPackage myCssButton" role="button" style="display: inline-block" href="/UserRelationship/UserRelClientPackageTableDialog">Alege pachetul clientului</a>
+            </div>
+        </div>
+
+        <br /><br />
+        <div>
+            <input type="button" class="btn myCssButton" onclick="location.href='/UserRelationship/Index';" value="Inapoi" />
+            <input type="submit" class="btn myCssButton" id="SubmitFormButtonUserRelationship" value="Salveaza" />
+        </div>
+    }
+</div>
+
+
+
+<script>
+
+    $(function () {
+        $('.selectClient').on('click', 'a.popupClient', function (e) {
+            e.preventDefault();
+            OpenPopup($(this).attr('href'));
+        })
+        function OpenPopup(pageUrl) {
+            var $pageContent = $('<div/>');
+            $pageContent.load(pageUrl, function () {
+
+            });
+
+            $dialog = $('<div class="popupWindowClient" style="overflow:auto"></div>')
+                .html($pageContent)
+                .dialog({
+                    draggable: false,
+                    autoOpen: false,
+                    resizable: false,
+                    model: true,
+                    modal: true,
+                    title: 'Alege client',
+                    height: 650,
+                    width: 700,
+                    close: function () {
+                        $dialog.dialog('destroy').remove();
+                    }
+                })
+
+            $('.popupWindowClient').on('click', '#myClickClient', function (e) {
+                e.preventDefault();
+                $dialog.dialog('close');
+            })
+            $dialog.dialog('open');
+        }
+    });
+
+    $(function () {
+        $('.selectCourier').on('click', 'a.popupCourier', function (e) {
+            e.preventDefault();
+            OpenPopup($(this).attr('href'));
+        })
+        function OpenPopup(pageUrl) {
+            var $pageContent = $('<div/>');
+            $pageContent.load(pageUrl, function () {
+
+            });
+
+            $dialog = $('<div class="popupWindowCourier" style="overflow:auto"></div>')
+                .html($pageContent)
+                .dialog({
+                    draggable: false,
+                    autoOpen: false,
+                    resizable: false,
+                    model: true,
+                    modal: true,
+                    title: 'Alege curier',
+                    height: 650,
+                    width: 700,
+                    close: function () {
+                        $dialog.dialog('destroy').remove();
+                    }
+                })
+
+            $('.popupWindowCourier').on('click', '#myClickCourier', function (e) {
+                e.preventDefault();
+                $dialog.dialog('close');
+            })
+            $dialog.dialog('open');
+        }
+    });
+
+    $(function () {
+        $('.selectClientPackage').on('click', 'a.popupClientPackage', function (e) {
+            e.preventDefault();
+            OpenPopup($(this).attr('href'));
+        })
+        function OpenPopup(pageUrl) {
+            var $pageContent = $('<div/>');
+            $pageContent.load(pageUrl, function () {
+
+            });
+
+            $dialog = $('<div class="popupWindowClientPackage" style="overflow:auto"></div>')
+                .html($pageContent)
+                .dialog({
+                    draggable: false,
+                    autoOpen: false,
+                    resizable: false,
+                    model: true,
+                    modal: true,
+                    title: 'Alege pachetul clientului',
+                    height: 650,
+                    width: 700,
+                    close: function () {
+                        $dialog.dialog('destroy').remove();
+                    }
+                })
+
+            $('.popupWindowClientPackage').on('click', '#myClickClientPackage', function (e) {   
+                e.preventDefault();
+                $dialog.dialog('close');
+            })
+            $dialog.dialog('open');
+        }
+    });
+</script>
+
+<script src="~/Scripts/App/ClientPackageTableDialog.js"></script>

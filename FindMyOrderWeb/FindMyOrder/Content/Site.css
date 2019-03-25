@@ -1,0 +1,98 @@
+﻿
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.redText {
+    color: red;
+}
+
+
+.myPageTitle {
+    margin-left: 30px;
+    background-color: #e9ecef;
+}
+
+#right-panel{
+    background-color:white;
+}
+
+.right-panel .breadcrumbs {
+    background-color: #e9ecef;
+}
+.right-panel .page-header {
+    background-color: #e9ecef;
+}
+
+.btn bg-transparent dropdown-toggle theme-toggle text-light {
+    height: auto !important;
+    overflow: visible !important;
+}
+
+.myCssButton {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.myCssButton:hover {
+    background-color: #007399;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#googleMap {
+    width: 65%;
+    height: 570px;
+    align-items: center;
+    padding-left: 30%;
+    margin-left:5%;
+}
+
+.dateFilter {
+    margin-left: 20px;
+}
+
+.leftSide {
+    float:left;
+    width: 65%;
+}
+
+.rightSide {
+    float: right;
+    width: 30%;
+}
+
+.matAndStats{
+    display: inline-block;
+}
+
+.carImageSize {
+    height: 135px;
+    width: 210px;
+}

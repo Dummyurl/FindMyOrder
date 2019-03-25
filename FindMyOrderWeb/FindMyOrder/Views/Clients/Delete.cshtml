@@ -1,0 +1,40 @@
+﻿@model FindMyOrder.Models.User
+
+@{
+    Layout = null;
+}
+
+<h2>Sterge client</h2>
+@using (Html.BeginForm("Delete", "Clients", FormMethod.Post, new { id = "popupFormDeleteClient" }))
+{
+    @Html.HiddenFor(a => a.Id)
+    @Html.HiddenFor(a => a.UserDetails.Id)
+    <input id="firebasePasswordDeleteClient" hidden value="@Model.Password">
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.UserDetails.Name)<br />
+        <input disabled class="form-control" value="@Model.UserDetails.Name">
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.Email)<br />
+        <input id="firebaseEmailDeleteClient" class="form-control" disabled value="@Model.Email">
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.UserDetails.Address)<br />
+        <textarea rows="5" disabled class="form-control">@Model.UserDetails.Address</textarea>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.UserDetails.PhoneNr)<br />
+        <input disabled class="form-control" value="@Model.UserDetails.PhoneNr">
+    </div>
+
+    <div>
+        <input type="button" id="firebaseBtnDeleteClient" value="Sterge" />
+        <input type="submit" id="SubmitDeleteFormButtonClient" style="display:none" value="StergeSubmit" />
+    </div>
+}
+
+<script src="~/Scripts/App/ClientDelete.js"></script>

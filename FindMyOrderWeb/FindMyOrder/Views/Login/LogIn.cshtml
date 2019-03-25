@@ -1,0 +1,48 @@
+﻿@model FindMyOrder.Models.User
+
+@{
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <div class="row vertical-offset-100">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">FindMyOrder - Va rugam sa va autentificati</h3>
+                </div>
+                <div class="panel-body">
+                    @using (Html.BeginForm("LogIn", "Login", FormMethod.Post))
+                    {
+                        <fieldset>
+                            <div class="form-group">
+                                @*<input class="form-control" placeholder="E-mail" name="email" type="text">*@
+                                @Html.EditorFor(x => x.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "E-mail", autocomplete = "off" } })
+
+                            </div>
+                            <div class="form-group">
+                                @*<input class="form-control" placeholder="Password" name="password" type="password" value="">*@
+                                @Html.PasswordFor(x => x.Password, new { @class = "form-control", placeholder = "Parola", autocomplete = "off" })
+                            </div>
+
+                            @if (!ViewData.ModelState.IsValid)
+                            {
+                                <div class="text-danger">
+                                    <h5>
+                                        <p>Date de autentificare incorecte !</p>
+                                        @Html.ValidationMessage("Error");   
+                                    </h5>
+                               
+                                </div>
+                            }
+
+                            <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+                        </fieldset>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

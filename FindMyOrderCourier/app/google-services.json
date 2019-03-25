@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "802048111602",
+    "firebase_url": "https://findmyorder-cd5f3.firebaseio.com",
+    "project_id": "findmyorder-cd5f3",
+    "storage_bucket": "findmyorder-cd5f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802048111602:android:05e0af5a36f0c044",
+        "android_client_info": {
+          "package_name": "com.example.stahi.findmyorderclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802048111602-8d23v0n2fflcsa6qkq6jjgm8o094tipp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stahi.findmyorderclient",
+            "certificate_hash": "85274abf8d3948ea4a5a656f07c54a174ac59f9b"
+          }
+        },
+        {
+          "client_id": "802048111602-20l2nh03heuhj81kg2fj2tcdlni9pgv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVIkou8IdgoFYvAe-_1bd-ZEIj1EnqXhI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802048111602-20l2nh03heuhj81kg2fj2tcdlni9pgv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802048111602:android:b47d13c0c0a230f2",
+        "android_client_info": {
+          "package_name": "com.example.stahi.findmyordercourier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802048111602-c6bhmai49gfk06roouebhunmg2um5fq9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stahi.findmyordercourier",
+            "certificate_hash": "85274abf8d3948ea4a5a656f07c54a174ac59f9b"
+          }
+        },
+        {
+          "client_id": "802048111602-20l2nh03heuhj81kg2fj2tcdlni9pgv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVIkou8IdgoFYvAe-_1bd-ZEIj1EnqXhI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802048111602-20l2nh03heuhj81kg2fj2tcdlni9pgv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

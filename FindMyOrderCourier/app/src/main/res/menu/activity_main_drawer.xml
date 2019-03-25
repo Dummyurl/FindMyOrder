@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="Acasa" />
+
+        <item
+            android:id="@+id/nav_report_problem"
+            android:icon="@drawable/ic_synchronization_problem"
+            android:title="Raporteaza o problema" />
+
+        <item
+            android:id="@+id/nav_reset_password"
+            android:icon="@drawable/ic_reset_password"
+            android:title="Schimba parola" />
+
+        <item
+            android:id="@+id/nav_navigator"
+            android:icon="@drawable/ic_navigation_black"
+            android:title="Navigator" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>

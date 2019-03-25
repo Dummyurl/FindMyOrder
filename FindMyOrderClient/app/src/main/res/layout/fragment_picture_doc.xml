@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.stahi.findmyorderclient.Drawer.PictureDocFragment">
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:text="Deschide Camera"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/tvImageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adauga titlu ..."
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/DocImageView"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" />
+
+    <Button
+        android:id="@+id/btnSaveToDb"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:text="Salveaza"
+        android:textColor="@color/white" />
+
+</LinearLayout>

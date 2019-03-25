@@ -1,0 +1,9 @@
+﻿body {
+    background: url(Images/LoginBackgroundImg.png);
+    background-color: #444;
+    background: url(Images/LoginBackgroundImg.png),url(Images/LoginBackgroundImg.png),url(Images/LoginBackgroundImg.png);
+}
+
+.vertical-offset-100 {
+    padding-top: 100px;
+}

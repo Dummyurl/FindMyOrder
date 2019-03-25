@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Drawer.ReportProblemFragment">
+
+    <TextView
+        android:id="@+id/tvReportProblemMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Va multumim pentru raportarea problemei, vom incerca sa gasim o solutie in cel mai scurt timp posibil."
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_marginBottom="35dp"/>
+
+
+    <EditText
+        android:id="@+id/etReportProblemMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvReportProblemMessage"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Observatii..." />
+
+    <Button
+        android:id="@+id/bSendReportProblemMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etReportProblemMessage"
+        android:layout_marginTop="10dp"
+        android:text="Trimite" />
+</RelativeLayout>

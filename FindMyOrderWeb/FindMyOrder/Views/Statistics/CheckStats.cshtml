@@ -1,0 +1,66 @@
+﻿@model FindMyOrder.Models.StatsModel
+@{
+    ViewBag.Title = "CheckStats";
+}
+
+<div class="breadcrumbs">
+    <div class="col-sm-4">
+        <div class="page-header float-left">
+            <div class="page-title">
+                <h1 class="myPageTitle"> Statistici</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<input value="@Model.CourierId" id="courierId" style="display:none" />
+
+
+<div id="parentDiv">
+    @if (Model.CourierLocations.Count > 0)
+    {
+        <div class="childDiv">
+
+            @foreach (var item in Model.CourierLocations)
+            {
+            <div>
+                <input value="@item.Longitude" class="longInput" style="display:none" />
+                <input value="@item.Latitude" class="latInput" style="display:none" />
+                <input value="@item.LocationTime" class="timeInput" style="display:none" />
+            </div>
+            }
+        </div>
+    }
+</div>
+
+<div class="matAndStats"></div>
+
+<div class="leftSide" id="googleMap"></div>
+
+<div class="rightSide">
+    <p class="dateFilter">Filtreaza dupa data: <br />
+    <input value="@Model.ChosenDate.ToShortDateString()" type="text" id="datepicker"></p>
+    <br />
+
+    <p class="dateFilter">Colete livrate <br />
+    <input value="@Model.NrOfDeliveredPackages" id="coleteLivrate" disabled type="text"> </p> 
+    <br />
+
+    <p class="dateFilter">Aproximare a kilometrilor parcursi<br />
+    <input value="@Model.Mileage" disabled id="kmParcursi"  type="text"></p> 
+    <br />
+
+    <p class="dateFilter">Litrii combustibil consumat(aproximativ) <br />
+        <input value="@Model.AproxSpentFuel" disabled id="combustibilConsumat" type="text"> </p>
+    <br />
+
+    <p class="dateFilter">Observatiile curierului la finalizarea livrarii <br />
+        <textarea disabled id="observations" rows="5">@Model.Observations </textarea>
+    </p>
+    <br />
+   
+
+</div>
+
+<script src="~/Scripts/App/Map.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyZ6CO_c40KYO0TF7M_7L3GSpW98Tf_qw&callback=initTheMap" type="text/javascript"></script>

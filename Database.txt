@@ -1,0 +1,117 @@
+CREATE TABLE [Cars](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](50) NOT NULL,
+	[LPerHundredKm] float not null,
+	[CarImage] [varbinary](max) NOT NULL,
+	CONSTRAINT PK_Cars PRIMARY KEY (Id),
+);
+
+CREATE TABLE [User](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Email] [nvarchar](100) NOT NULL,
+	[Password] [nvarchar](max) NOT NULL,
+	[Token] [nvarchar](max) NOT NULL,
+	[FirebaseToken] [nvarchar](max) NULL,
+	[Role] [nvarchar](20) NOT NULL,
+	[IsCurier] [bit] NOT NULL,
+	[CarId] [int] NULL,
+	CONSTRAINT PK_User PRIMARY KEY (Id),
+	CONSTRAINT FK_Courier_Car FOREIGN KEY (CarId) REFERENCES [Cars](Id)
+);
+
+
+CREATE TABLE [UserDetails](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[UserId] [int] NOT NULL,
+	[Name] [nvarchar](50) NOT NULL,
+	[Address] [nvarchar](255) NULL,
+	[PhoneNr] [nvarchar](30) NOT NULL,
+	CONSTRAINT PK_UserDetails PRIMARY KEY (Id),
+	CONSTRAINT FK_UserDetails_User FOREIGN KEY (UserId) REFERENCES [User](Id)
+);
+
+
+CREATE TABLE [ClientPackage](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[ClientId] [int] NOT NULL,
+	[Name] [nvarchar](255) NOT NULL,
+	CONSTRAINT PK_ClientPackage PRIMARY KEY (Id),
+	CONSTRAINT FK_ClientPackage_User FOREIGN KEY (ClientId) REFERENCES [User](Id)
+);
+
+CREATE TABLE [UserRelationship](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[ClientId] [int] NOT NULL,
+	[CourierId] [int] NOT NULL,
+	[ClientPackageId] [int] NOT NULL,
+	[Valid] [bit] NOT NULL,
+	CONSTRAINT PK_UserRelationship PRIMARY KEY (Id),
+	CONSTRAINT FK_ClientUserRel_User FOREIGN KEY (ClientId) REFERENCES [User](Id),
+	CONSTRAINT FK_CourierUserRel_User FOREIGN KEY (CourierId) REFERENCES [User](Id),
+	CONSTRAINT FK_CourierUserRel_ClientPackage FOREIGN KEY (ClientPackageId) REFERENCES [ClientPackage](Id)
+);
+
+
+CREATE TABLE [ChatMessages](
+	[Id] [bigint] IDENTITY(1,1) NOT NULL,
+	[SenderId] [int] NOT NULL,
+        [ReceiverId] [int] NOT NULL,
+	[ChatMessage] [varchar](255) NOT NULL,
+	[ChatTime] [datetime] NOT NULL,
+	CONSTRAINT PK_ChatMessages PRIMARY KEY (Id),
+	CONSTRAINT FK_ChatMessages_User FOREIGN KEY (SenderId) REFERENCES [User](Id)
+);
+
+
+CREATE TABLE [CourierLocation](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[CourierId] [int] NOT NULL,
+	[Latitude] [float] NOT NULL,
+	[Longitude] [float] NOT NULL,
+	[Speed] [float] NOT NULL,
+	[LocationTime] [datetime] NOT NULL,
+	CONSTRAINT PK_CourierLocation PRIMARY KEY (Id),
+	CONSTRAINT FK_CourierLocation_User FOREIGN KEY (CourierId) REFERENCES [User](Id)
+);
+
+
+CREATE TABLE [Contact](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[UserId] [int] NOT NULL,
+	[Message] [nvarchar](255) NOT NULL,
+	CONSTRAINT PK_Contact PRIMARY KEY (Id),
+	CONSTRAINT FK_Contact_User FOREIGN KEY (UserId) REFERENCES [User](Id)
+);
+
+
+CREATE TABLE [ReportProblemForm](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[UserId] [int] NOT NULL,
+	[Message] [nvarchar](255) NOT NULL,
+	CONSTRAINT PK_ReportProblemForm PRIMARY KEY (Id),
+	CONSTRAINT FK_ReportProblemForm_User FOREIGN KEY (UserId) REFERENCES [User](Id)
+);
+
+
+CREATE TABLE [DeliveredPackages](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[CourierId] [int] NOT NULL,
+	[ClientId] [int] NOT NULL,
+	[SubmitTime] [datetime] NOT NULL,
+	[Observations] [nvarchar](255) NULL,
+	CONSTRAINT PK_DeliveredPackages PRIMARY KEY (Id),
+	CONSTRAINT FK_ClientDeliveredPackages_User FOREIGN KEY (ClientId) REFERENCES [User](Id),
+	CONSTRAINT FK_CourieDeliveredPackages_User FOREIGN KEY (CourierId) REFERENCES [User](Id)
+);
+
+
+CREATE TABLE [DocumentPhotos](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Title] [nvarchar](255) NOT NULL,
+	[ClientId] [int] NOT NULL,
+	[DocImage] [varbinary](max) NOT NULL,
+	CONSTRAINT PK_DocumentPhotos PRIMARY KEY (Id),
+	CONSTRAINT FK_DocumentPhotos_User FOREIGN KEY (ClientId) REFERENCES [User](Id)
+);
+
+

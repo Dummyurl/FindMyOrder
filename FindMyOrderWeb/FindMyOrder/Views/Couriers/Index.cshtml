@@ -1,0 +1,124 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="breadcrumbs">
+    <div class="col-sm-4">
+        <div class="page-header float-left">
+            <div class="page-title">
+                <h1 class="myPageTitle">Curieri</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div style="width:90%; margin:0 auto" class="tablecontainer">
+    <a class="btn btn-primary" href="/Couriers/SaveOrUpdate/-1" style="margin-bottom:20px; margin-top:20px;"><span class="glyphicon glyphicon-plus"></span> Adauga curier</a>
+    <table id="myDatatable" class="table">
+        <thead class="thead-light">
+            <tr>
+                <th>Nume</th>
+                <th>E-mail</th>
+                <th>Nr. telefon</th>
+                <th>Autovehicul condus</th>
+                <th>Editeaza</th>
+                <th>Sterge</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+
+
+<script>
+    (function () {
+
+        var oTable = $('#myDatatable').dataTable({
+            "language": {
+                "lengthMenu": "Afiseaza _MENU_ inregistrari pe pagina",
+                "zeroRecords": "Ne pare rau dar nu am gasit inregistrari",
+                "info": "Pagina _PAGE_ din _PAGES_",
+                "infoEmpty": "Nu sunt inregistrari disponibile",
+                "infoFiltered": "(filtru aplicat pe _MAX_ inregistrari totale)",
+                "sSearch": "Caută:",
+                "sProcessing": "Procesează...",
+                "oPaginate": {
+                    "sFirst": "Prima",
+                    "sPrevious": "Precedenta",
+                    "sNext": "Următoarea",
+                    "sLast": "Ultima"
+                }
+            },
+            "autoWidth": false,
+            "columnDefs": [
+                { "width": "20%" },
+                { "width": "20%" },
+                { "width": "20%" },
+                { "width": "20%" },
+                { "width": "20%" }
+            ],
+            "ajax": {
+                "url": '/Couriers/GetCouriers',
+                "type": "POST",
+                "datatype": "json"
+            },
+            "columns": [
+                { "data": "UserDetails.Name" },
+                { "data": "Email" },
+                { "data": "UserDetails.PhoneNr" },
+                { "data": "Car.Name" },
+                {
+                    "data": "Id", "render": function (data) {
+                        return '<a class = "btn btn-warning" style="color: white" href = "/Couriers/SaveOrUpdate/' + data + '"><span class="glyphicon glyphicon-edit"></span></a>'
+                    }
+                },
+                {
+                    "data": "Id", "render": function (data) {
+                        return '<a class = "popup btn btn-danger" style="color: white" href = "/Couriers/Delete/' + data + '"><span class="glyphicon glyphicon-trash"></span></a>'
+                    }
+                },
+            ]
+        })
+
+        $('.tablecontainer').on('click', 'a.popup', function (e) {
+            e.preventDefault();
+            OpenPopup($(this).attr('href'));
+        })
+
+        function OpenPopup(pageUrl) {
+            var $pageContent = $('<div/>');
+            $pageContent.load(pageUrl, function () {
+                $('#popupFormDelete', $pageContent).removeData('validator');
+                $('#popupFormDelete', $pageContent).removeData('unobtrusiveValidation');
+                $.validator.unobtrusive.parse('form');
+
+            });
+
+            $dialog = $('<div class="popupWindow" style="overflow:auto"></div>')
+                .html($pageContent)
+                .dialog({
+                    draggable: false,
+                    autoOpen: false,
+                    resizable: false,
+                    model: true,
+                    modal: true,
+                    title: 'FindMyOrder - Curier',
+                    height: 680,
+                    width: 700,
+                    close: function () {
+                        $dialog.dialog('destroy').remove();
+                    }
+                })
+
+            $('#SubmitDeleteFormButton').on('click', function (e) {
+                $dialog.dialog('close');
+            })
+
+            $dialog.dialog('open');
+        }
+    }());
+</script>

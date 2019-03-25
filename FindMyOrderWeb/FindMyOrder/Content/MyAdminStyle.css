@@ -1,0 +1,13 @@
+﻿.myNavItem:hover
+{
+    background-color:lightgrey;
+}
+.myNavIcon{
+    padding-left: 10px;
+}
+
+.MyHelloMessage{
+    margin-right: 40px;
+    color: black;
+    vertical-align: middle;
+}

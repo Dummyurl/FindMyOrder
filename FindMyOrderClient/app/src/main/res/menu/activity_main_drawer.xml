@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="Acasa" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact" />
+
+        <item
+            android:id="@+id/nav_update_info"
+            android:icon="@drawable/ic_update_info"
+            android:title="Actualizeaza informatiile" />
+
+        <item
+            android:id="@+id/nav_reset_password"
+            android:icon="@drawable/ic_reset_password"
+            android:title="Schimba parola" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat" />
+
+        <item
+            android:id="@+id/nav_doc_picture"
+            android:icon="@drawable/ic_camera_alt_black"
+            android:title="Fotografiaza document" />
+
+        <item
+            android:id="@+id/nav_doc_picture_list"
+            android:icon="@drawable/ic_image_black"
+            android:title="Istoric imagini" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>

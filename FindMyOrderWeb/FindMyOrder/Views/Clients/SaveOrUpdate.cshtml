@@ -1,0 +1,69 @@
+﻿@model FindMyOrder.Models.User
+
+@{
+    Layout = null;
+}
+
+
+@if (Model.Id == -1)
+{
+    <h2>Adauga Client</h2>
+}
+else
+{
+    <h2>Modifica informatii client</h2>
+}
+
+@using (Html.BeginForm("SaveOrUpdate", "Clients", FormMethod.Post, new { id = "popupFormClient" }))
+{
+
+    @Html.HiddenFor(a => a.Id)
+    @Html.HiddenFor(a => a.UserDetails.Id)
+    @Html.HiddenFor(x => x.Token)
+    @Html.Raw(TempData["msg"])
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.UserDetails.Name)<br />
+        @Html.EditorFor(a => a.UserDetails.Name, new { htmlAttributes = new { @class = "form-control text-box single-line margin", autocomplete = "off", } })
+        @Html.ValidationMessageFor(a => a.UserDetails.Name, "", new { @class = "redText" })
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Email)<br />
+        @Html.EditorFor(a => a.Email, new { htmlAttributes = new { @class = "form-control text-box single-line", autocomplete = "off", @id = "firebaseEmail" } })
+        @Html.ValidationMessageFor(a => a.Email, "", new { @class = "redText" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.UserDetails.Address)<br />
+        @Html.TextAreaFor(a => a.UserDetails.Address, new { @class = "form-control", autocomplete = "off", @rows = 5 })
+    </div>
+
+    if (Model.Id == -1)
+    {
+        <div class="form-group">
+            @Html.LabelFor(x => x.Password)<br />
+            @Html.PasswordFor(a => a.Password, new { @class = "form-control text-box single-line", autocomplete = "off" })
+            @Html.ValidationMessageFor(a => a.Password, "", new { @class = "redText" })
+        </div>
+    }
+    else
+    {
+        @Html.HiddenFor(a => a.Password)
+    }
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.UserDetails.PhoneNr)<br />
+        @Html.EditorFor(a => a.UserDetails.PhoneNr, new { htmlAttributes = new { @class = "form-control text-box single-line", autocomplete = "off" } })
+        @Html.ValidationMessageFor(a => a.UserDetails.PhoneNr, "", new { @class = "redText" })
+    </div>
+
+    <div>
+        <input type="button" class="btn" id="firebaseBtnSignUpClient" value="Salveaza" />
+        <input type="submit" id="SubmitFormButtonClient" style="display:none" value="SalveazaSubmit" />
+    </div>
+}
+
+
+<script src="~/Scripts/App/ClientsSaveOrUpdate.js"></script>

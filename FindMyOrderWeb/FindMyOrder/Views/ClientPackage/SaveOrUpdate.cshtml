@@ -1,0 +1,106 @@
+﻿@model FindMyOrder.Models.ClientPackage
+
+@{
+    ViewBag.Title = "SaveOrUpdate";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (Model.Id == -1) //add
+{
+    <div class="breadcrumbs">
+        <div class="col-sm-4">
+            <div class="page-header float-left">
+                <div class="page-title">
+                    <h1 class="myPageTitle">Adauga Pachet</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else //update
+{
+    <div class="breadcrumbs">
+        <div class="col-sm-4">
+            <div class="page-header float-left">
+                <div class="page-title">
+                    <h1 class="myPageTitle">Modifica informatii pachet</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div style="width:90%; margin:0 auto">
+    @using (Html.BeginForm("SaveOrUpdate", "ClientPackage", FormMethod.Post))
+    {
+        @Html.HiddenFor(a => a.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.Name)<br />
+            @Html.EditorFor(a => a.Name, new { htmlAttributes = new { @class = "form-control text-box single-line margin", autocomplete = "off", } })
+            @Html.ValidationMessageFor(a => a.Name, "", new { @class = "redText" })
+        </div>
+
+
+        <div class="selectClient">
+
+            <div style="display:inline-block">
+                <div class="form-group"  style="display: inline-block">
+                    @Html.HiddenFor(a => a.ClientId)
+                    @Html.LabelFor(x => x.User.UserDetails.Name)<br />
+                    @Html.EditorFor(a => a.User.UserDetails.Name, new { htmlAttributes = new { @class = "form-control text-box single-line", disabled = "true", autocomplete = "off", @id = "ClientName" } })
+                    @Html.Raw(TempData["msg"])
+                </div>
+                <a class="popup myCssButton" role="button" style="display: inline-block" href="/ClientPackage/ClientPackageTableDialog">Asociaza client</a>
+            </div>     
+        </div>
+
+        <br /><br />
+        <div>
+            <input type="button" class="btn myCssButton" onclick="location.href='/ClientPackage/Index';" value="Inapoi" />
+            <input type="submit" class="btn myCssButton" id="SubmitFormButtonClientPackage" value="Salveaza" />
+        </div>
+    }
+</div>
+
+
+
+<script>
+    $(function () {
+        $('.selectClient').on('click', 'a.popup', function (e) {
+            e.preventDefault();
+            OpenPopup($(this).attr('href'));
+        })
+
+        function OpenPopup(pageUrl) {
+            var $pageContent = $('<div/>');
+            $pageContent.load(pageUrl, function () {
+
+            });
+
+            $dialog = $('<div class="popupWindow" style="overflow:auto"></div>')
+                .html($pageContent)
+                .dialog({
+                    draggable: false,
+                    autoOpen: false,
+                    resizable: false,
+                    model: true,
+                    modal: true,
+                    title: 'Asociaza client',
+                    height: 650,
+                    width: 700,
+                    close: function () {
+                        $dialog.dialog('destroy').remove();
+                    }
+                })
+
+            $('.popupWindow').on('click', '#myClick', function (e) {
+                e.preventDefault();
+                $dialog.dialog('close');
+            })
+            $dialog.dialog('open');
+        }
+    })
+</script>
+
+<script src="~/Scripts/App/ClientPackageTableDialog.js"></script>

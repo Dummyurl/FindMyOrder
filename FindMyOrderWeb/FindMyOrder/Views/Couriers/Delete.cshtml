@@ -1,0 +1,45 @@
+﻿@model FindMyOrder.Models.User
+
+@{
+    Layout = null;
+}
+
+<h2>Sterge curier</h2>
+@using (Html.BeginForm("Delete", "Couriers", FormMethod.Post, new { id = "popupFormDelete" }))
+{
+    @Html.HiddenFor(a => a.Id)
+    @Html.HiddenFor(a => a.UserDetails.Id)
+    <input id="firebasePasswordDelete" hidden value="@Model.Password">
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.UserDetails.Name)<br />
+        <input disabled class="form-control" value="@Model.UserDetails.Name">
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.Email)<br />
+        <input id="firebaseEmailDelete" class="form-control" disabled value="@Model.Email">
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.UserDetails.PhoneNr)<br />
+        <input disabled class="form-control" value="@Model.UserDetails.PhoneNr">
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.Car.Name)<br />
+        <input disabled class="form-control" value="@Model.Car.Name">
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.Car.CarImage)<br />
+        <img class="img-responsive imageSize" style="height:135px; width:210px" src="@Model.Car.StringCarImage" />
+    </div>
+
+    <div>
+        <input type="button" id="firebaseBtnDelete" value="Sterge" />
+        <input type="submit" id="SubmitDeleteFormButton" style="display:none" value="StergeSubmit" />
+    </div>
+}
+
+<script src="~/Scripts/App/CourierDelete.js"></script>

@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="breadcrumbs">
+    <div class="col-sm-4">
+        <div class="page-header float-left">
+            <div class="page-title">
+                <h1 class="myPageTitle"> Lista Curieri</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div style="width:90%; margin:0 auto" class="tablecontainer">
+    <table id="myDatatable" class="table">
+        <thead class="thead-light">
+            <tr>
+                <th>Nume</th>
+                <th>E-mail</th>
+                <th>Nr. telefon</th>
+                <th>Statistici</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+
+
+<script>
+    (function () {
+
+        var oTable = $('#myDatatable').dataTable({
+            "language": {
+                "lengthMenu": "Afiseaza _MENU_ inregistrari pe pagina",
+                "zeroRecords": "Ne pare rau dar nu am gasit inregistrari",
+                "info": "Pagina _PAGE_ din _PAGES_",
+                "infoEmpty": "Nu sunt inregistrari disponibile",
+                "infoFiltered": "(filtru aplicat pe _MAX_ inregistrari totale)",
+                "sSearch": "Caută:",
+                "sProcessing": "Procesează...",
+                "oPaginate": {
+                    "sFirst": "Prima",
+                    "sPrevious": "Precedenta",
+                    "sNext": "Următoarea",
+                    "sLast": "Ultima"
+                }
+            },
+            "autoWidth": false,
+            "columnDefs": [
+                { "width": "22%" },
+                { "width": "22%" },
+                { "width": "22%" },
+                { "width": "22%" },
+            ],
+            "ajax": {
+                "url": '/Statistics/GetCouriers',
+                "type": "POST",
+                "datatype": "json"
+            },
+            "columns": [
+                { "data": "UserDetails.Name" },
+                { "data": "Email" },
+                { "data": "UserDetails.PhoneNr" },
+                {
+                    "data": "Id", "render": function (data) {
+                        return '<a href="/Statistics/CheckStats/' + data + '" style="color: blue">Vizualizeaza</a>';
+                    }
+                },
+            ]
+        })
+    }());
+</script>

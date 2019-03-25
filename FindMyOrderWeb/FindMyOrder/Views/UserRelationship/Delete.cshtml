@@ -1,0 +1,36 @@
+﻿@model FindMyOrder.Models.UserRelationship
+
+@{
+    Layout = null;
+}
+
+<h2>Sterge pachet client</h2>
+<br />
+@using (Html.BeginForm("Delete", "UserRelationship", FormMethod.Post, new { id = "popupFormDeleteUserRelationship" }))
+{
+    @Html.HiddenFor(a => a.Id)
+
+    <div class="form-group">
+        <label>Nume client</label>
+        <br />
+        <input disabled class="form-control" value="@Model.Client.UserDetails.Name">
+    </div>
+
+    <div class="form-group">
+        <label>Nume curier</label>
+        <br />
+        <input class="form-control" disabled value="@Model.Courier.UserDetails.Name">
+    </div>
+
+    <div class="form-group">
+        <label>Pachet de livrat</label>
+        <br />
+        <input class="form-control" disabled value="@Model.ClientPackage.Name">
+    </div>
+
+    <br />
+    <div>
+        <input type="submit" id="SubmitDeleteFormButtonUserRelationship" value="Sterge" />
+    </div>
+}
+

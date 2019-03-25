@@ -1,0 +1,295 @@
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\FindMyOrder.dll.config
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\FindMyOrder.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\FindMyOrder.pdb
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Helpers.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Mvc.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Razor.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Webpages.Deployment.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Webpages.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Webpages.Razor.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Razor.xml
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Webpages.xml
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Webpages.Deployment.xml
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Webpages.Razor.xml
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Helpers.xml
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Mvc.xml
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\obj\Debug\FindMyOrder.csprojResolveAssemblyReference.cache
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\obj\Debug\FindMyOrder.csproj.CoreCompileInputs.cache
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\obj\Debug\FindMyOrder.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\obj\Debug\FindMyOrder.pdb
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.Security.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\Owin.dll
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.xml
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.Security.xml
+C:\Users\alexandru.stahie\Desktop\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\FindMyOrder.dll.config
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\FindMyOrder.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\FindMyOrder.pdb
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.Security.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\Owin.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Helpers.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Mvc.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Razor.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Webpages.Deployment.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Webpages.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Webpages.Razor.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.Security.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Razor.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Webpages.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Webpages.Deployment.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Webpages.Razor.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Helpers.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\System.Web.Mvc.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\obj\Debug\FindMyOrder.csprojResolveAssemblyReference.cache
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\obj\Debug\FindMyOrder.csproj.CoreCompileInputs.cache
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\obj\Debug\FindMyOrder.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\obj\Debug\FindMyOrder.pdb
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\EntityFramework.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\EntityFramework.SqlServer.dll
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\EntityFramework.xml
+C:\Users\stahi\Desktop\Licenta\WEB\FindMyOrder\FindMyOrder\FindMyOrder\bin\EntityFramework.SqlServer.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.csproj.CoreCompileInputs.cache
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.pdb
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.dll.config
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.pdb
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.SqlServer.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\Owin.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\System.Web.Helpers.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\System.Web.Mvc.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\System.Web.Razor.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Deployment.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Razor.dll
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.SqlServer.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\System.Web.Razor.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Deployment.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Razor.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\System.Web.Helpers.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\bin\System.Web.Mvc.xml
+C:\Users\stahi\Desktop\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.csprojResolveAssemblyReference.cache
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.dll.config
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.pdb
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.SqlServer.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Owin.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Helpers.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Mvc.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Razor.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Deployment.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Razor.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.SqlServer.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Razor.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Deployment.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Razor.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Helpers.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Mvc.xml
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.csprojResolveAssemblyReference.cache
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.csproj.CoreCompileInputs.cache
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.dll
+C:\Users\stahi\Desktop\Licenta\Licenta practic\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.pdb
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.dll.config
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.pdb
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.SqlServer.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Owin.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Helpers.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Mvc.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Razor.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Deployment.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Razor.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.SqlServer.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Razor.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Deployment.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Razor.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Helpers.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Web.Mvc.xml
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.csproj.CoreCompileInputs.cache
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.pdb
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.csprojResolveAssemblyReference.cache
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Win32.Primitives.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.AppContext.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Console.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Device.Portable.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Globalization.Calendars.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.IO.Compression.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.IO.Compression.ZipFile.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.IO.FileSystem.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Net.Http.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Net.Sockets.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\stahi\Desktop\Licenta practic\FindMyOrderWeb\FindMyOrder\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.dll.config
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.pdb
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.SqlServer.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Win32.Primitives.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Owin.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.AppContext.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Console.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Device.Portable.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Globalization.Calendars.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.IO.Compression.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.IO.Compression.ZipFile.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.IO.FileSystem.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Net.Http.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Net.Sockets.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Web.Helpers.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Web.Mvc.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Web.Razor.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Deployment.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Razor.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.SqlServer.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Web.Razor.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Deployment.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Razor.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Web.Helpers.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\bin\System.Web.Mvc.xml
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.csprojResolveAssemblyReference.cache
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.csproj.CoreCompileInputs.cache
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.dll
+C:\Users\stahi\Desktop\Practic - licenta\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.pdb
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.dll.config
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\FindMyOrder.pdb
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.SqlServer.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Win32.Primitives.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Owin.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.AppContext.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Console.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Device.Portable.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Diagnostics.DiagnosticSource.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Globalization.Calendars.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.IO.Compression.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.IO.Compression.ZipFile.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.IO.FileSystem.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.IO.FileSystem.Primitives.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Net.Http.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Net.Sockets.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Security.Cryptography.Algorithms.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Security.Cryptography.Encoding.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Security.Cryptography.Primitives.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Security.Cryptography.X509Certificates.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Web.Helpers.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Web.Mvc.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Web.Razor.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Deployment.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Razor.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\EntityFramework.SqlServer.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\Microsoft.Owin.Security.Cookies.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Diagnostics.DiagnosticSource.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Web.Razor.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Deployment.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Web.Webpages.Razor.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Web.Helpers.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\bin\System.Web.Mvc.xml
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.csprojResolveAssemblyReference.cache
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.csproj.CoreCompileInputs.cache
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.dll
+D:\GitHub\FindMyOrder\FindMyOrderWeb\FindMyOrder\obj\Debug\FindMyOrder.pdb

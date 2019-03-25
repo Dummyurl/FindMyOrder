@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/registerLayout"
+    tools:context="com.example.stahi.findmyorderclient.LoginActivities.RegisterActivity">
+
+
+
+    <TextView
+        android:id="@+id/etRegisterMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inregistreaza un cont nou"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etRegisterMessage"
+        android:ems="10"
+        android:hint="Nume*"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etName"
+        android:ems="10"
+        android:hint="E-mail*"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etEmail"
+        android:ems="10"
+        android:hint="Parola* (minim 6 caractere)"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etPassword"
+        android:ems="10"
+        android:hint="Adresa*"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/etPhoneNr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etAddress"
+        android:ems="10"
+        android:hint="Numar telefon*"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etPhoneNr"
+        android:layout_marginTop="10dp"
+        android:text="Inregistreaza" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:id="@+id/loadingBar"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:indeterminate="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>
